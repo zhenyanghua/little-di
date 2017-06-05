@@ -1,5 +1,5 @@
 const assert = require('assert');
-const {Container} = require('../lib/LittleDi');
+const {Container, SCOPE_PROTOTYPE} = require('../lib/LittleDi');
 const Car = require('./classes/Car');
 const Engine = require('./classes/Engine');
 const Manufacture = require('./classes/Manufacture');
@@ -8,12 +8,12 @@ describe('Container', function() {
   const classesConfig = [
     {
       clazz: Engine,
-      scope: 'prototype'
+      scope: SCOPE_PROTOTYPE
     },
     {
       clazz: Car,
       dependencies: [Engine],
-      scope: 'prototype'
+      scope: SCOPE_PROTOTYPE
     },
     {
       clazz: Manufacture

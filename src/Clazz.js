@@ -1,4 +1,4 @@
-import {SCOPE_SINGLETON} from './Constants';
+import {SCOPE_SINGLETON} from './index';
 
 export class Clazz {
 

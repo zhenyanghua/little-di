@@ -1,7 +1,9 @@
-import {SCOPE_PROTOTYPE} from './Constants';
 import {Clazz} from './Clazz';
 
-export class Container {
+const SCOPE_SINGLETON = "singleton";
+const SCOPE_PROTOTYPE = "prototype";
+
+class Container {
 
   constructor(classesConfig) {
     this._classes = new Map();
@@ -35,4 +37,8 @@ export class Container {
 
     return Reflect.construct(clazz.name, dependencies);
   }
+}
+
+export {
+  Container, SCOPE_SINGLETON, SCOPE_PROTOTYPE
 }

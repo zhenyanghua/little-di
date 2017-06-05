@@ -1,0 +1,35 @@
+{
+  "name": "little-di",
+  "version": "0.0.1",
+  "description": "A very simple implementation of dependency injection concept for both frontend and backend in ES6.",
+  "main": "lib/LittleDi.min.js",
+  "scripts": {
+    "build": "webpack --env build",
+    "dev": "webpack --progress --colors --watch --env dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhenyanghua/little-di.git"
+  },
+  "keywords": [
+    "Dependency Injection",
+    "Inversion of Control",
+    "Instance Management"
+  ],
+  "author": "Zhenyang Hua",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/zhenyanghua/little-di/issues"
+  },
+  "homepage": "https://github.com/zhenyanghua/little-di#readme",
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-core": "^6.23.1",
+    "babel-eslint": "^7.1.1",
+    "babel-loader": "^6.3.2",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-preset-es2015": "^6.22.0",
+    "webpack": "^2.2.1",
+    "yargs": "^7.0.1"
+  }
+}

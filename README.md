@@ -3,7 +3,7 @@
 A very simple implementation of dependency injection concept for both frontend and backend in **ES6**.
 
 ## Usage
-```ecmascript 6
+```javascript
 const classesConfig = [
     {
         clazz: Engine,

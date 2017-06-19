@@ -1,5 +1,5 @@
 const assert = require('assert');
-const {Container, SCOPE_PROTOTYPE} = require('../lib/LittleDi');
+const {Container, SCOPE_PROTOTYPE} = require('../../lib/LittleDi');
 const Car = require('./classes/Car');
 const Engine = require('./classes/Engine');
 const Manufacture = require('./classes/Manufacture');

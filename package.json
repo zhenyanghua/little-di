@@ -6,7 +6,8 @@
   "scripts": {
     "build": "webpack --env build",
     "dev": "webpack --progress --colors --watch --env dev",
-    "test": "mocha"
+    "test": "mocha",
+    "test-log": "node test/noTestRunner/no-test-runner.js"
   },
   "repository": {
     "type": "git",
